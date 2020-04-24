@@ -23,5 +23,9 @@ TARGET_SCREEN_DENSITY := 440
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# WiFi
+PRODUCT_PACKAGES += \
+    TocoWifiOverlay
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/toco/toco-vendor.mk)
