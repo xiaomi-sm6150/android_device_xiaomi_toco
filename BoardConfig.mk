@@ -12,5 +12,8 @@ DEVICE_PATH := device/xiaomi/toco
 # Kernel
 TARGET_KERNEL_CONFIG := toco_defconfig
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+
 # Inherit from proprietary files
 include vendor/xiaomi/toco/BoardConfigVendor.mk
