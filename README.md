@@ -12,7 +12,7 @@ It was announced in May 2020.
 Basic   | Spec Sheet
 -------:|:-------------------------
 CPU     | Dual-core 2.2 GHz Kryo 470 Gold & Hexa-core 1.8 GHz Kryo 470 Silver
-Chipset | Qualcomm SDM730G Snapdragon 730G
+Chipset | Qualcomm SDM730 Snapdragon 730G
 GPU     | Adreno 618
 Memory  | 6/8 GB LPDDR4x
 Storage | 64/128 GB UFS 2.1
