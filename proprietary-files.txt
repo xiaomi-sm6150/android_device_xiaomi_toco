@@ -222,7 +222,6 @@ vendor/lib/libsn100u_fw.so
 vendor/bin/sensors.qti
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.sensors.qti.rc
-vendor/etc/sensors/hals.conf
 vendor/lib64/libsensorslog.so
 vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
@@ -269,6 +268,7 @@ vendor/etc/sensors/config/sns_tilt_sw_enabled.json
 vendor/etc/sensors/config/sns_tilt_to_wake.json
 vendor/etc/sensors/config/tcs3701.json
 vendor/etc/sensors/config/vl53l1_tof_0.json
+vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
 
 # Thermal
