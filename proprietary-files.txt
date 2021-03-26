@@ -273,11 +273,6 @@ vendor/etc/sensors/config/vl53l1_tof_0.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
 
-# Sensors HIDL
-vendor/bin/hw/android.hardware.sensors@1.0-service
-vendor/etc/init/android.hardware.sensors@1.0-service.rc
-vendor/lib64/hw/android.hardware.sensors@1.0-impl.so
-
 # Sensors Ultrasound
 vendor/etc/elliptic_sensor.xml
 vendor/lib64/libultrasound.so
