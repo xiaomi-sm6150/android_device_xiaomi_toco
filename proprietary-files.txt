@@ -1,4 +1,5 @@
 # Audio ACDB
+vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
 vendor/etc/acdbdata/Tutu/Tutu_Codec_cal.acdb
 vendor/etc/acdbdata/Tutu/Tutu_General_cal.acdb
