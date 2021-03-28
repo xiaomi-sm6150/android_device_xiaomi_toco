@@ -13,6 +13,36 @@ vendor/etc/acdbdata/Tutu/Tutu_workspaceFile.qwsp
 # Audio firmware
 vendor/firmware/tfa98xx.cnt
 
+# Audio Modules
+vendor/lib/modules/audio_adsp_loader.ko:vendor/lib/modules/adsp_loader_dlkm.ko
+vendor/lib/modules/audio_apr.ko:vendor/lib/modules/apr_dlkm.ko
+vendor/lib/modules/audio_bolero_cdc.ko:vendor/lib/modules/bolero_cdc_dlkm.ko
+vendor/lib/modules/audio_hdmi.ko:vendor/lib/modules/hdmi_dlkm.ko
+vendor/lib/modules/audio_machine_talos.ko:vendor/lib/modules/machine_dlkm.ko
+vendor/lib/modules/audio_native.ko:vendor/lib/modules/native_dlkm.ko
+vendor/lib/modules/audio_pinctrl_lpi.ko:vendor/lib/modules/pinctrl_lpi_dlkm.ko
+vendor/lib/modules/audio_pinctrl_wcd.ko:vendor/lib/modules/pinctrl_wcd_dlkm.ko
+vendor/lib/modules/audio_platform.ko:vendor/lib/modules/platform_dlkm.ko
+vendor/lib/modules/audio_q6.ko:vendor/lib/modules/q6_dlkm.ko
+vendor/lib/modules/audio_q6_notifier.ko:vendor/lib/modules/q6_notifier_dlkm.ko
+vendor/lib/modules/audio_q6_pdr.ko:vendor/lib/modules/q6_pdr_dlkm.ko
+vendor/lib/modules/audio_rx_macro.ko:vendor/lib/modules/rx_macro_dlkm.ko
+vendor/lib/modules/audio_snd_event.ko:vendor/lib/modules/snd_event_dlkm.ko
+vendor/lib/modules/audio_stub.ko:vendor/lib/modules/stub_dlkm.ko
+vendor/lib/modules/audio_swr.ko:vendor/lib/modules/swr_dlkm.ko
+vendor/lib/modules/audio_tfa98xx.ko:vendor/lib/modules/tfa98xx_dlkm.ko
+vendor/lib/modules/audio_tx_macro.ko:vendor/lib/modules/tx_macro_dlkm.ko
+vendor/lib/modules/audio_usf.ko:vendor/lib/modules/usf_dlkm.ko
+vendor/lib/modules/audio_va_macro.ko:vendor/lib/modules/va_macro_dlkm.ko
+vendor/lib/modules/audio_wcd937x.ko:vendor/lib/modules/wcd937x_dlkm.ko
+vendor/lib/modules/audio_wcd937x_slave.ko:vendor/lib/modules/wcd937x_slave_dlkm.ko
+vendor/lib/modules/audio_wcd9xxx.ko:vendor/lib/modules/wcd9xxx_dlkm.ko
+vendor/lib/modules/audio_wcd_core.ko:vendor/lib/modules/wcd_core_dlkm.ko
+vendor/lib/modules/audio_wcd_spi.ko:vendor/lib/modules/wcd_spi_dlkm.ko
+vendor/lib/modules/audio_wglink.ko:vendor/lib/modules/wglink_dlkm.ko
+vendor/lib/modules/audio_wsa881x.ko:vendor/lib/modules/wsa881x_dlkm.ko
+vendor/lib/modules/audio_wsa_macro.ko:vendor/lib/modules/wsa_macro_dlkm.ko
+
 # Camera
 vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/camera/eisoverridesettings.txt
