@@ -12,10 +12,6 @@ DEVICE_PATH := device/xiaomi/toco
 # Audio
 TARGET_PROVIDES_AUDIO_EXTNS := true
 
-# FOD
-TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.toco
-TARGET_USES_FOD_ZPOS := true
-
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
@@ -77,6 +73,10 @@ TARGET_SCREEN_DENSITY := 440
 
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
+# Udfps
+TARGET_SURFACEFLINGER_UDFPS_LIB := //$(COMMON_PATH):libudfps_extension.xiaomi_sm6150
+TARGET_USES_FOD_ZPOS := true
 
 # Verified boot
 BOARD_AVB_VBMETA_SYSTEM := product system system_ext
