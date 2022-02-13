@@ -219,6 +219,9 @@ vendor/lib64/libmibokeh_712.so
 #vendor/lib64/libSNPE.so
 vendor/lib64/libXMFD_AgeGender.so
 
+# DRM
+vendor/lib64/liboemcrypto.so
+
 # Fingerprint
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.sm6150.so
 vendor/lib64/libgf_hal.so
