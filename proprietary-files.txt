@@ -328,6 +328,3 @@ vendor/etc/thermald-devices.conf
 
 # Vibrator firmware
 vendor/firmware/drv2604.bin
-
-# WLAN
--vendor/bin/cnss-daemon
