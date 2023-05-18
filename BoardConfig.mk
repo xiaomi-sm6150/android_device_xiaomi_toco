@@ -16,7 +16,7 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := toco_defconfig
+TARGET_KERNEL_CONFIG += vendor/toco.config
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
