@@ -36,11 +36,6 @@ PRODUCT_PACKAGES += \
     libudfpshandler \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
-# Fstab
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom
-
 # IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
